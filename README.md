@@ -11,4 +11,6 @@ Currently, two official plugins are available:
 ## steps to run 
 
 # 1. git clone
-# 2. run the 
+# 2. run application : npm run dev
+# 3. create build - npm run build
+# 4. preview build  - npm run preview
