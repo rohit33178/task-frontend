@@ -27,7 +27,7 @@ export const CreateTask = () => {
         });
         let res = await response.json()
         if(res.status === 200){
-          alert("task complted");
+          alert("task added");
           setSelected([])
           setTask("")
           navigate("/task-lists");
