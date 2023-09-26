@@ -1,0 +1,16 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: .6rem;
+  text-align: center;
+}
+.card{
+  width: 300px;
+  padding: 1rem;
+  margin-top: 5px;
+  text-align: left;
+  background-color: #cdcdcd !important;
+}
+.pointer{
+  color: #000;
+}
