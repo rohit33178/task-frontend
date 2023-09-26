@@ -1,5 +1,6 @@
 import React, { Fragment, useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
+import { API_ENDPOINT } from '../config';
 
 
 
@@ -7,8 +8,6 @@ export const TaskLists = () => {
   let navigate = useNavigate()  
   const [tasks, setTasks] = useState([]);
 
-  let API_ENDPOINT =
-        'http://localhost:5000';
   let path = `${API_ENDPOINT}/all-tasks`  
 
   useEffect(() => {

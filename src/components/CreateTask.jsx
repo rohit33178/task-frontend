@@ -1,6 +1,7 @@
 import React, { Fragment, useState } from 'react'
 import { MultiSelect } from 'react-multi-select-component';
 import { useNavigate } from 'react-router-dom';
+import { API_ENDPOINT } from '../config';
 
 export const CreateTask = () => {
   const navigate = useNavigate();
@@ -10,8 +11,7 @@ export const CreateTask = () => {
     ];
       const [task, setTask] = useState('');
       const [selected, setSelected] = useState([]);
-      let API_ENDPOINT =
-        'http://localhost:5000';
+      
       const handleSubmit = async (e) => {
         // e.preventDefault();
         if(!task) return false;
