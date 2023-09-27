@@ -5,10 +5,10 @@ import { API_ENDPOINT } from '../config';
 
 export const CreateTask = () => {
   const navigate = useNavigate();
-    const teams = [
-      { value: 'frontend', label: 'Designer Team' },
-      { value: 'backend', label: 'Development Team' },
-    ];
+      const teams = [
+        { value: 'frontend', label: 'Frontend Team' },
+        { value: 'backend', label: 'Backend Team' },
+      ];
       const [task, setTask] = useState('');
       const [selected, setSelected] = useState([]);
       // console.log(API_ENDPOINT);
